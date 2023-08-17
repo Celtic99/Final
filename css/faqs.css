@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* TOPOGRAFIAS 
+
+font-family: 'Rubik Spray Paint', cursive;
+font-family: 'Montserrat', sans-serif;
+
+*/
+
+/* PALETA COLORES
+
+#ffffff
+#1D1D1D
+
+*/
+
+
+.contenedor-pregs{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+.contenedor-pregs h2{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.pregs{
+    background-color: #ffffff;
+
+}
+
+.pregs label{
+    display: block;
+    font-size: 25px;
+    color: #000000;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.pregs .contenido-pregs{
+    padding: 0px;
+    margin: 0px 20px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 300ms ease;
+}
+
+.btn-pregs:checked ~ .contenido-pregs{
+    max-height: 600px;
+    padding: 15px 0px;
+}
+
+  /* ENLACES */
+  .enlaces {
+    display: flex;
+    gap: 32px;
+    margin-left: 80px;
+    margin-top: 45px;
+  }
+  
+  .enlaces a {
+    background-color: #ffffff;
+    color: #1D1D1D;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .enlaces {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 64px;
+    gap: 12px;
+  }
