@@ -1,0 +1,38 @@
+[
+    {
+        "precio": 4000,
+        "id": 1,
+        "title": "Baby tee Tattoo",
+        "thumbnailUrl": "https://d22fxaf9t8d39k.cloudfront.net/326bce6221881cfe3d06d4a82fbdfcde9c685a157f5e6c04fce313de50fc32f168909.jpg"
+    },
+    {
+        "precio": 4000,
+        "id": 2,
+        "title": "Baby tee Arachnide",
+        "thumbnailUrl": "https://d22fxaf9t8d39k.cloudfront.net/0c99a29ba7dee703955f7115daef2ceb8906bb8e38ee8a49c74d3b812655e95a68909.jpg"
+    },
+    {
+        "precio": 6667,
+        "id": 3,
+        "title": "Baby Tee Bestia",
+        "thumbnailUrl": "https://d22fxaf9t8d39k.cloudfront.net/82945c238dd80916a939bc2061b50adf699ddf65e4f6a02e725537db3d31d94768909.jpeg"
+    },
+    {
+        "precio": 4000,
+        "id": 4,
+        "title": "Baby tee Society",
+        "thumbnailUrl": "https://d22fxaf9t8d39k.cloudfront.net/eb05565fdc87af0d6f3dcb442d5411bb51f6a35d7b197eb2a1f514467adc5da568909.jpg"
+    },
+    {
+        "precio": 3300,
+        "id": 5,
+        "title": "Tank top Hot Stuff",
+        "thumbnailUrl": "https://d22fxaf9t8d39k.cloudfront.net/9e7254993b68405e8665aa7f2ab337591bfee57793d0fe5017d658440dc697ac68909.jpg"
+    },
+    {
+        "precio": 3300,
+        "id": 6,
+        "title": "Musculosa Pretty",
+        "thumbnailUrl": "https://d22fxaf9t8d39k.cloudfront.net/c7374eb7c394c48d3d06bad5b0c9fb8ec1d879c0899f7e77f106f19e405f372468909.jpg"
+    }
+]
