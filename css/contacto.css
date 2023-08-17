@@ -1,0 +1,541 @@
+@charset "UTF-8";
+/***** variables *****/ /*** genera un bloque de codigo css el cual puede ser reutilizable ***/
+/* si lo quiero llamar uso @include flex */
+/**elementos que componen al reset o lo que gerera dentro de mi codigo**/
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+header {
+    z-index: 1;
+    background-color: #1D1D1D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 10px;
+  }
+  
+  .logo {
+    padding: 5px 0px 9px 30px;
+    width: 220px;
+    margin-right: 100px;
+  }
+  
+  .navbar li a {
+    font-family: "Rubik Spray Paint", cursive;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .navbar {
+    list-style: none;
+    display: flex;
+    gap: 26px;
+    margin: 1px;
+  }
+  
+  .navbar li {
+    display: inline block;
+  }
+  
+  .navbar li a:hover {
+    color: #8b8b8b;
+  }
+  
+  nav .navbar-responsive {
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+  }
+  
+  ul li a {
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+  }
+  
+  .encabezado-responsive {
+    display: none;
+  }
+  
+  .logo-respon {
+    display: none;
+  }
+  
+  .iconos-navv {
+    display: flex;
+    align-items: center;
+    padding-right: 30px;
+    margin-left: 50px;
+  }
+  
+  main div {
+    background-color: #1D1D1D;
+  }
+  
+  .banner {
+    max-width: 100%;
+  }
+  
+  /* CATEGORIAS */
+  .categorias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+  }
+  
+  .c-imagen {
+    max-width: 100%;
+  }
+  
+  .primeras {
+    margin-top: 100px;
+  }
+  
+  .separador-linea, .separador-linea2 {
+    width: 900px;
+  }
+  
+  .separador div {
+    display: flex;
+  }
+  
+  .separador div {
+    background-color: #ffffff;
+  }
+  
+  /* ENLACES */
+  .enlaces {
+    display: flex;
+    gap: 32px;
+    margin-left: 80px;
+    margin-top: 45px;
+  }
+  
+  .enlaces a {
+    background-color: #ffffff;
+    color: #1D1D1D;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .enlaces {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 64px;
+    gap: 12px;
+  }
+  
+  /* PIE DE PAGINA */
+  footer {
+    width: 100%;
+    background-color: #1D1D1D;
+  }
+  
+  .logo-footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+  }
+  
+  .follow {
+    justify-content: center;
+    padding: 1px;
+    margin-bottom: 153px;
+  }
+  
+  .texto h2 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: "Rubik Spray Paint", cursive;
+    color: #8b8b8b;
+    line-height: 5px;
+  }
+  
+  .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contenedor {
+    display: grid;
+    gap: 1rem;
+    column-gap: 12px;
+    grid-auto-rows: 22rem;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  }
+  
+  .box1-pagos {
+    max-width: 100px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 150px;
+    margin-top: 32px;
+    column-gap: 1px;
+    row-gap: 3px;
+  }
+  
+  .box2-envios {
+    max-width: 100px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 35px;
+    column-gap: 1px;
+    row-gap: 3px;
+    margin-top: 1px;
+  }
+  
+  .icon-footer {
+    width: 50px;
+  }
+  
+  .box1 h2, .box2 h2, .box3 h2 {
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  h2 {
+    margin-top: 0px;
+  }
+  
+  .texto h2 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-family: "Rubik Spray Paint", cursive;
+    color: #8b8b8b;
+    line-height: 5px;
+    margin-top: 40px;
+  }
+  
+  .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .box3 h3 {
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  .box1-pagos {
+    max-width: 100px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 150px;
+    margin-top: 32px;
+    column-gap: 4px;
+    row-gap: 4px;
+    margin-left: 164px;
+  }
+  
+  .box2-envios {
+    max-width: 299px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 35px;
+    column-gap: 1px;
+    row-gap: 4px;
+    margin-top: 1px;
+    margin-left: 62px;
+  }
+  
+  .col-footer {
+    display: flex;
+    gap: 15px;
+    margin-left: 100px;
+  }
+  
+  /* CONTACTO */
+  .contactoss div {
+    background-color: #FFF;
+  }
+  
+  .contenedor-contacto {
+    width: 90%;
+    max-width: 1146px;
+    background-color: #fff;
+    padding: 36px;
+    margin: 20px auto;
+    box-shadow: 0px 1px 2px rgb(0, 0, 1);
+    margin-top: 80px;
+    margin-bottom: 230px;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .contenedor-contacto h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 25px;
+    color: black;
+  }
+  
+  .contenido-contacto {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .contenido-contacto .info-contacto, contenido-contacto .formulario {
+    width: 50%;
+  }
+  
+  .info-contacto {
+    padding-left: 10px;
+  }
+  
+  .info-contacto .col {
+    width: 100%;
+    display: flex;
+    margin-bottom: 15px;
+    font-size: 16px;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+  
+  .info-contacto .col .icono-contacto {
+    margin-right: 10px;
+  }
+  
+  .info .col p {
+    color: #999;
+    line-height: 24px;
+  }
+  
+  .formulario {
+    padding-left: 10px;
+  }
+  
+  .formulario input[type=text],
+  .formulario textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 12px 20px;
+    border: 1px solid #999;
+    color: #999;
+    font-weight: 400;
+    outline: 0;
+  }
+  
+  .formulario textarea {
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 150px;
+    max-height: 200px;
+  }
+  
+  .formulario input[type=text]:focus,
+  .formulario textarea:focus {
+    border: 1px solid #e48bff;
+  }
+  
+  button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-left: 319px;
+  }
+  
+  button.enviar {
+    font-weight: 600;
+    color: #382b22;
+    text-transform: uppercase;
+    padding: 1.25em 2em;
+    background: #fff0f0;
+    border: 2px solid #000;
+    border-radius: 0.75em;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition: background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1);
+  }
+  
+  button.enviar::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: ⁠c8b8db;
+    border-radius: inherit;
+    -webkit-box-shadow: 0 0 0 2px #b18597, 0 0.625em 0 0 #ffe3e2;
+    box-shadow: 0 0 0 2px #000, 0 0.625em 0 0 #ffe3e2;
+    -webkit-transform: translate3d(0, 0.75em, -1em);
+    transform: translate3d(0, 0.75em, -1em);
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-transform 150ms cubic-bezier(0, 0, 0.58, 1), -webkit-box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
+  }
+  
+  button.enviar:hover {
+    background: #ffe9e9;
+    -webkit-transform: translate(0, 0.25em);
+    transform: translate(0, 0.25em);
+  }
+  
+  button.enviar:hover::before {
+    -webkit-box-shadow: 0 0 0 2px #b18597, 0 0.5em 0 0 #ffe3e2;
+    box-shadow: 0 0 0 2px #000, 0 0.5em 0 0 #ffe3e2;
+    -webkit-transform: translate3d(0, 0.5em, -1em);
+    transform: translate3d(0, 0.5em, -1em);
+  }
+  
+  button.enviar:active {
+    background: #ffe9e9;
+    -webkit-transform: translate(0em, 0.75em);
+    transform: translate(0em, 0.75em);
+  }
+  
+  button.enviar:active::before {
+    -webkit-box-shadow: 0 0 0 2px #b18597, 0 0 #ffe3e2;
+    box-shadow: 0 0 0 2px #b18597, 0 0 #ffe3e2;
+    -webkit-transform: translate3d(0, 0, -1em);
+    transform: translate3d(0, 0, -1em);
+  }
+  
+  /* FAQS */
+  .contenedor-pregs {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .contenedor-pregs h2 {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .pregs {
+    background-color: #ffffff;
+  }
+  
+  .pregs label {
+    display: block;
+    font-size: 25px;
+    color: #000000;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+  }
+  
+  .btn-pregs {
+    display: none;
+  }
+  
+  .pregs .contenido-pregs {
+    padding: 0px;
+    margin: 0px 20px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 300ms ease;
+  }
+  
+  .btn-pregs:checked ~ .contenido-pregs {
+    max-height: 600px;
+    padding: 15px 0px;
+  }
+  
+  .contenedor-pregs {
+    margin-bottom: 180px;
+  }
+  
+  /* NEW IN */
+  .newin-box {
+    background-color: #ffffff;
+    height: 1560px;
+  }
+  
+  .newin-box {
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 200px;
+    margin-top: 0px;
+    padding: 0px 0px 0px 400px;
+  }
+  
+  .card-newin {
+    margin-top: 100px;
+    width: 200px;
+    height: 300px;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  
+  .conteiner-card {
+    text-align: start;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    background-color: #ffffff;
+    letter-spacing: 1px;
+    font-size: 15px;
+    max-block-size: 100px;
+  }
+  
+  .name_clothes {
+    font-size: 25px;
+    color: #000000;
+    font-family: "Montserrat", sans-serif;
+    text-align: start;
+    margin-top: 8px;
+  }
+  
+  .categorias {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
