@@ -10,7 +10,7 @@ function datos(){
         document.getElementById('nombres').focus();
     }if(correod == ""){
         alert("Ingresar E-MAIL");
-        document.getElementById('email');
+        document.getElementById('email').focus();
     }
     if(asuntod == ""){
         alert("Ingresar asunto");
@@ -29,11 +29,3 @@ function datos(){
     }
 }
 
-// function boton111() {
-//     let boton = document.getElementById('boton11').value;
-//     if (boton.value == "enviar"){
-//         boton.value = "enviado"; 
-//     }
-//     else{
-//         boton.value = 'enviar'; }
-//     }
